@@ -1,0 +1,11 @@
+{
+	"name":		"hyprlofs",
+	"version":	"0.0.2",
+	"description":	"SmartOS hyprlofs bindings",
+	"author":	"Joyent (joyent.com)",
+	"engines":	{ "node": ">=0.6" },
+	"main":		"./build/Release/hyprlofs",
+	"scripts": {
+		"install": "node-gyp rebuild"
+	}
+}
