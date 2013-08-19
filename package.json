@@ -1,11 +1,18 @@
 {
-	"name":		"hyprlofs",
-	"version":	"0.0.2",
-	"description":	"SmartOS hyprlofs bindings",
-	"author":	"Joyent (joyent.com)",
-	"engines":	{ "node": ">=0.6" },
-	"main":		"./build/Release/hyprlofs",
+	"name": "hyprlofs",
+	"version": "0.0.2",
+	"description": "SmartOS hyprlofs bindings",
+	"author": "Joyent (joyent.com)",
+	"engines": {
+		"node": ">=0.6"
+	},
+	"main": "./build/Release/hyprlofs",
 	"scripts": {
 		"install": "node-gyp rebuild"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/joyent/node-hyprlofs.git"
 	}
 }
