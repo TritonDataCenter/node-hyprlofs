@@ -380,7 +380,8 @@ HyprlofsFilesystem::async(void (*eiofunc)(uv_work_t *), Local<Value> callback)
 
 	uv_work_t *req = new uv_work_t;
 	req->data = this;
-	uv_queue_work(uv_default_loop(), req, eiofunc, eioAsyncFini);
+	uv_queue_work(uv_default_loop(), req, eiofunc,
+	    (uv_after_work_cb)eioAsyncFini);
 }
 
 /*
