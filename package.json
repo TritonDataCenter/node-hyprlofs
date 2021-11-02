@@ -1,6 +1,6 @@
 {
 	"name": "hyprlofs",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "SmartOS hyprlofs bindings",
 	"author": "Joyent (joyent.com)",
 	"engines": {
@@ -13,6 +13,6 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/joyent/node-hyprlofs.git"
+		"url": "https://github.com/joyent/node-hyprlofs.git"
 	}
 }
